@@ -1,9 +1,9 @@
 'use strict';
 
-const spans = document.querySelectorall('span');
+const spans = document.querySelectorAll('span');
 
 spans.forEach((span) => {
-  span.addEventListner('click', () => {
+  span.addEventListener('click', () => {
     const ul = span.nextElementSibling;
 
     if (ul) {
